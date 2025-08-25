@@ -1,0 +1,11 @@
+metric,value
+edges_total,115279
+unique_edge_labels,411
+edge_tokens,117557
+edge_vocab_size,412
+edge_ttr,0.003505
+pos_ADJ,641
+pos_ADV,420
+pos_NOUN,114010
+pos_VERB,2486
+edge_rare_words,7
