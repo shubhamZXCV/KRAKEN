@@ -1,0 +1,15 @@
+metric,value
+tokens,736954
+vocab_size,6054
+ttr,0.008215
+common_nouns,106552
+proper_nouns,249534
+avg_len,18.9585
+median_len,18.0
+p95_len,36
+rare_words,1043
+total_samples,38872
+total_edges,115279
+avg_edges_per_sample,2.965605
+unique_edge_labels,411
+edge_word_vocab_size,412
