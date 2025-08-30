@@ -30,13 +30,15 @@ def main():
     dataset = load_dataset("GEM/web_nlg", "en", split="train")
     print(f"Loaded {len(dataset)} training examples.")
 
-    # Shuffle and maybe limit if you don’t want all (remove .select to save all)
-    sampled = dataset.shuffle(seed=42)
+    # # Shuffle and maybe limit if you don’t want all (remove .select to save all)
+    # sampled = dataset.shuffle(seed=42)
 
-    for idx in tqdm(range(len(sampled)), desc="Rendering graphs"):
-        example = sampled[idx]
-        save_file = f"webnlg/graphs/webnlg_pydot_{idx}.png"
-        render_graph(example['input'], save_path=save_file)
+    # for idx in tqdm(range(len(sampled)), desc="Rendering graphs"):
+    #     example = sampled[idx]
+    #     save_file = f"webnlg/graphs/webnlg_pydot_{idx}.png"
+    #     render_graph(example['input'], save_path=save_file)
+
+    render_graph(dataset["input"][300], save_path="webnlg/graphs/webnlg_pydot_300.png")
 
 if __name__ == "__main__":
     main()
