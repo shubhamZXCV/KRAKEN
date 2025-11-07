@@ -1,0 +1,33 @@
+2025-11-06 20:54:52,793 - INFO - Using device: cuda
+2025-11-06 20:54:52,793 - INFO - Batch Size set to: 32
+2025-11-06 20:54:52,795 - INFO - Use pytorch device_name: cuda:0
+2025-11-06 20:54:52,795 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-06 20:54:58,011 - INFO - Loading WebNLG QA train and validation splits...
+2025-11-06 20:54:58,474 - WARNING - Skipping QA pair with missing question/answer in train/University/3/Id35: {'question': 'Which institution granted '}
+2025-11-06 20:54:58,785 - WARNING - Skipping QA pair with missing question/answer in train/University/4/Id40: {'question': 'Which institute was given the '}
+2025-11-06 20:54:58,840 - INFO - Train samples: 98114, Validation samples: 4544
+2025-11-06 20:55:01,879 - INFO - Starting Training...
+2025-11-06 20:55:03,065 - INFO - ✅ Resuming training from checkpoint: checkpoints_multimodal_g2t_shubham2/epoch_2_val_loss_11.0589.pt
+2025-11-06 20:55:03,065 - INFO - Starting Epoch: 3, Previous Best Val Loss: 11.0589
+2025-11-06 21:42:03,829 - INFO - --- Epoch 3 Complete ---
+Average Training Loss: 11.7474
+Average Validation Loss: 11.0236
+2025-11-06 21:42:05,845 - INFO - Checkpoint saved to checkpoints_multimodal_g2t_shubham2/epoch_3_val_loss_11.0236.pt
+2025-11-06 21:42:10,680 - INFO - New best model saved to checkpoints_multimodal_g2t_shubham2/best_model.pt
+2025-11-06 22:28:28,131 - INFO - --- Epoch 4 Complete ---
+Average Training Loss: 11.7493
+Average Validation Loss: 10.9742
+2025-11-06 22:28:30,169 - INFO - Checkpoint saved to checkpoints_multimodal_g2t_shubham2/epoch_4_val_loss_10.9742.pt
+2025-11-06 22:28:34,203 - INFO - New best model saved to checkpoints_multimodal_g2t_shubham2/best_model.pt
+2025-11-06 23:20:28,539 - INFO - --- Epoch 5 Complete ---
+Average Training Loss: 11.7399
+Average Validation Loss: 11.0145
+2025-11-06 23:20:30,661 - INFO - Checkpoint saved to checkpoints_multimodal_g2t_shubham2/epoch_5_val_loss_11.0145.pt
+2025-11-07 00:06:47,746 - INFO - --- Epoch 6 Complete ---
+Average Training Loss: 11.7404
+Average Validation Loss: 11.0142
+2025-11-07 00:06:50,034 - INFO - Checkpoint saved to checkpoints_multimodal_g2t_shubham2/epoch_6_val_loss_11.0142.pt
+2025-11-07 00:52:53,014 - INFO - --- Epoch 7 Complete ---
+Average Training Loss: 11.7305
+Average Validation Loss: 11.0769
+2025-11-07 00:52:55,034 - INFO - Checkpoint saved to checkpoints_multimodal_g2t_shubham2/epoch_7_val_loss_11.0769.pt

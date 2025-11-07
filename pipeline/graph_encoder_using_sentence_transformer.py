@@ -21,7 +21,7 @@ else:
 # Pretrained model that converts text (node/edge labels) into dense embeddings
 st_model = SentenceTransformer("all-MiniLM-L6-v2")
 embedding_dim = st_model.get_sentence_embedding_dimension()
-print(f"✅ Loaded SentenceTransformer with embedding dim = {embedding_dim}")
+print(f"✅ Loaded SentenceTransformer with embedding dim = {embedding_dim}") # 384
 
 
 # -------------------------

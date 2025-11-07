@@ -1,0 +1,56 @@
+2025-11-05 02:19:58,413 - INFO - Using device: cuda
+2025-11-05 02:19:58,413 - INFO - Batch Size set to: 32
+2025-11-05 02:19:58,417 - INFO - Use pytorch device_name: cuda:0
+2025-11-05 02:19:58,417 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-05 02:20:04,732 - INFO - Loading official WebNLG train and validation splits...
+2025-11-05 02:20:11,111 - INFO - Train samples: 35425, Validation samples: 1666
+2025-11-05 02:20:14,317 - INFO - Starting Training...
+2025-11-05 02:20:15,725 - INFO - ✅ Resuming training from checkpoint: checkpoints_multimodal_g2t/epoch_10_val_loss_0.2087.pt
+2025-11-05 02:20:15,725 - INFO - Starting Epoch: 11, Previous Best Val Loss: 0.2087
+2025-11-05 02:37:15,780 - INFO - --- Epoch 11 Complete ---
+Average Training Loss: 0.1751
+Average Validation Loss: 0.2020
+2025-11-05 02:37:19,809 - INFO - Checkpoint saved to checkpoints_multimodal_g2t/epoch_11_val_loss_0.2020.pt
+2025-11-05 02:37:22,949 - INFO - New best model saved to checkpoints_multimodal_g2t/best_model.pt
+2025-11-05 02:47:38,621 - INFO - --- Epoch 12 Complete ---
+Average Training Loss: 0.1642
+Average Validation Loss: 0.1969
+2025-11-05 02:47:42,206 - INFO - Checkpoint saved to checkpoints_multimodal_g2t/epoch_12_val_loss_0.1969.pt
+2025-11-05 02:47:45,322 - INFO - New best model saved to checkpoints_multimodal_g2t/best_model.pt
+2025-11-05 02:57:39,904 - INFO - --- Epoch 13 Complete ---
+Average Training Loss: 0.1548
+Average Validation Loss: 0.1951
+2025-11-05 02:57:43,485 - INFO - Checkpoint saved to checkpoints_multimodal_g2t/epoch_13_val_loss_0.1951.pt
+2025-11-05 02:57:46,481 - INFO - New best model saved to checkpoints_multimodal_g2t/best_model.pt
+2025-11-05 03:07:43,391 - INFO - --- Epoch 14 Complete ---
+Average Training Loss: 0.1469
+Average Validation Loss: 0.1932
+2025-11-05 03:07:47,016 - INFO - Checkpoint saved to checkpoints_multimodal_g2t/epoch_14_val_loss_0.1932.pt
+2025-11-05 03:07:50,016 - INFO - New best model saved to checkpoints_multimodal_g2t/best_model.pt
+2025-11-05 03:17:44,988 - INFO - --- Epoch 15 Complete ---
+Average Training Loss: 0.1401
+Average Validation Loss: 0.1960
+2025-11-05 03:17:48,636 - INFO - Checkpoint saved to checkpoints_multimodal_g2t/epoch_15_val_loss_0.1960.pt
+2025-11-05 03:27:45,569 - INFO - --- Epoch 16 Complete ---
+Average Training Loss: 0.1347
+Average Validation Loss: 0.1898
+2025-11-05 03:27:49,135 - INFO - Checkpoint saved to checkpoints_multimodal_g2t/epoch_16_val_loss_0.1898.pt
+2025-11-05 03:27:52,272 - INFO - New best model saved to checkpoints_multimodal_g2t/best_model.pt
+2025-11-05 03:37:47,886 - INFO - --- Epoch 17 Complete ---
+Average Training Loss: 0.1288
+Average Validation Loss: 0.1886
+2025-11-05 03:37:51,450 - INFO - Checkpoint saved to checkpoints_multimodal_g2t/epoch_17_val_loss_0.1886.pt
+2025-11-05 03:37:54,448 - INFO - New best model saved to checkpoints_multimodal_g2t/best_model.pt
+2025-11-05 03:47:48,355 - INFO - --- Epoch 18 Complete ---
+Average Training Loss: 0.1237
+Average Validation Loss: 0.1909
+2025-11-05 03:47:51,954 - INFO - Checkpoint saved to checkpoints_multimodal_g2t/epoch_18_val_loss_0.1909.pt
+2025-11-05 03:57:46,592 - INFO - --- Epoch 19 Complete ---
+Average Training Loss: 0.1190
+Average Validation Loss: 0.1929
+2025-11-05 03:57:50,487 - INFO - Checkpoint saved to checkpoints_multimodal_g2t/epoch_19_val_loss_0.1929.pt
+2025-11-05 04:07:51,333 - INFO - --- Epoch 20 Complete ---
+Average Training Loss: 0.1149
+Average Validation Loss: 0.1926
+2025-11-05 04:07:55,069 - INFO - Checkpoint saved to checkpoints_multimodal_g2t/epoch_20_val_loss_0.1926.pt
+2025-11-05 04:07:55,069 - INFO - Training complete.

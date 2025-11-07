@@ -1,0 +1,96 @@
+2025-11-07 01:11:01,921 - INFO - Using device: cuda
+2025-11-07 01:11:01,922 - INFO - Use pytorch device_name: cuda:0
+2025-11-07 01:11:01,923 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-07 01:11:08,119 - INFO - Loading QA data...
+2025-11-07 01:11:09,062 - INFO - Train QA samples: 98114, Validation QA samples: 4544
+2025-11-07 01:11:11,776 - INFO - Freezing GraphEncoder parameters.
+2025-11-07 01:11:11,776 - INFO - Freezing Graph Projection, G_V_fusion, and final_fusion_layer.
+2025-11-07 01:11:11,778 - INFO - Optimizer initialized with only trainable parameters (BART: Encoder, Decoder, Embeddings).
+2025-11-07 01:11:11,778 - INFO - Loading pretrained weights from: checkpoints_multimodal_g2t/best_model.pt
+2025-11-07 01:11:12,514 - INFO - ✅ Pretrained weights loaded successfully (compatible layers only).
+2025-11-07 01:11:12,515 - INFO - Starting Training for QA Fine-tuning...
+2025-11-07 01:50:23,231 - INFO - --- Epoch 1 Complete ---
+Average Training Loss: 0.0516
+Average Validation Loss: 0.0381
+2025-11-07 01:50:26,432 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_1_val_loss_0.0381.pt
+2025-11-07 01:50:27,716 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 02:30:24,155 - INFO - --- Epoch 2 Complete ---
+Average Training Loss: 0.0362
+Average Validation Loss: 0.0340
+2025-11-07 02:30:26,830 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_2_val_loss_0.0340.pt
+2025-11-07 02:30:30,305 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 03:10:16,728 - INFO - --- Epoch 3 Complete ---
+Average Training Loss: 0.0322
+Average Validation Loss: 0.0322
+2025-11-07 03:10:19,326 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_3_val_loss_0.0322.pt
+2025-11-07 03:10:22,838 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 03:50:15,094 - INFO - --- Epoch 4 Complete ---
+Average Training Loss: 0.0299
+Average Validation Loss: 0.0309
+2025-11-07 03:50:17,935 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_4_val_loss_0.0309.pt
+2025-11-07 03:50:21,357 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 04:30:13,330 - INFO - --- Epoch 5 Complete ---
+Average Training Loss: 0.0284
+Average Validation Loss: 0.0303
+2025-11-07 04:30:16,234 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_5_val_loss_0.0303.pt
+2025-11-07 04:30:19,764 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 05:10:12,438 - INFO - --- Epoch 6 Complete ---
+Average Training Loss: 0.0274
+Average Validation Loss: 0.0301
+2025-11-07 05:10:16,069 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_6_val_loss_0.0301.pt
+2025-11-07 05:10:19,465 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 05:50:07,437 - INFO - --- Epoch 7 Complete ---
+Average Training Loss: 0.0266
+Average Validation Loss: 0.0292
+2025-11-07 05:50:11,037 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_7_val_loss_0.0292.pt
+2025-11-07 05:50:14,541 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 06:30:06,288 - INFO - --- Epoch 8 Complete ---
+Average Training Loss: 0.0259
+Average Validation Loss: 0.0293
+2025-11-07 06:30:09,232 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_8_val_loss_0.0293.pt
+2025-11-07 07:09:34,863 - INFO - --- Epoch 9 Complete ---
+Average Training Loss: 0.0256
+Average Validation Loss: 0.0292
+2025-11-07 07:09:37,951 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_9_val_loss_0.0292.pt
+2025-11-07 07:09:41,416 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 07:49:04,714 - INFO - --- Epoch 10 Complete ---
+Average Training Loss: 0.0248
+Average Validation Loss: 0.0288
+2025-11-07 07:49:08,212 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_10_val_loss_0.0288.pt
+2025-11-07 07:49:11,994 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 08:28:48,879 - INFO - --- Epoch 11 Complete ---
+Average Training Loss: 0.0246
+Average Validation Loss: 0.0290
+2025-11-07 08:28:51,850 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_11_val_loss_0.0290.pt
+2025-11-07 09:08:28,433 - INFO - --- Epoch 12 Complete ---
+Average Training Loss: 0.0242
+Average Validation Loss: 0.0290
+2025-11-07 09:08:31,660 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_12_val_loss_0.0290.pt
+2025-11-07 09:48:19,339 - INFO - --- Epoch 13 Complete ---
+Average Training Loss: 0.0240
+Average Validation Loss: 0.0286
+2025-11-07 09:48:22,555 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_13_val_loss_0.0286.pt
+2025-11-07 09:48:26,038 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 10:28:17,808 - INFO - --- Epoch 14 Complete ---
+Average Training Loss: 0.0236
+Average Validation Loss: 0.0284
+2025-11-07 10:28:21,098 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_14_val_loss_0.0284.pt
+2025-11-07 10:28:24,826 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 11:08:15,646 - INFO - --- Epoch 15 Complete ---
+Average Training Loss: 0.0235
+Average Validation Loss: 0.0282
+2025-11-07 11:08:19,348 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_15_val_loss_0.0282.pt
+2025-11-07 11:08:23,130 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 11:49:33,939 - INFO - --- Epoch 16 Complete ---
+Average Training Loss: 0.0233
+Average Validation Loss: 0.0281
+2025-11-07 11:49:38,039 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_16_val_loss_0.0281.pt
+2025-11-07 11:49:41,736 - INFO - New best model saved to checkpoints_multimodal_qa/best_model.pt
+2025-11-07 12:31:12,666 - INFO - --- Epoch 17 Complete ---
+Average Training Loss: 0.0230
+Average Validation Loss: 0.0284
+2025-11-07 12:31:16,997 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_17_val_loss_0.0284.pt
+2025-11-07 13:12:54,295 - INFO - --- Epoch 18 Complete ---
+Average Training Loss: 0.0229
+Average Validation Loss: 0.0285
+2025-11-07 13:12:58,384 - INFO - Checkpoint saved to checkpoints_multimodal_qa/epoch_18_val_loss_0.0285.pt

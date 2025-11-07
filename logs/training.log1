@@ -1,0 +1,19 @@
+2025-11-06 18:55:47,931 - INFO - Using device: cuda
+2025-11-06 18:55:47,931 - INFO - Batch Size set to: 32
+2025-11-06 18:55:47,933 - INFO - Use pytorch device_name: cuda:0
+2025-11-06 18:55:47,933 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-11-06 18:55:53,054 - INFO - Loading WebNLG QA train and validation splits...
+2025-11-06 18:55:53,541 - WARNING - Skipping QA pair with missing question/answer in train/University/3/Id35: {'question': 'Which institution granted '}
+2025-11-06 18:55:53,886 - WARNING - Skipping QA pair with missing question/answer in train/University/4/Id40: {'question': 'Which institute was given the '}
+2025-11-06 18:55:53,942 - INFO - Train samples: 98114, Validation samples: 4544
+2025-11-06 18:55:57,023 - INFO - Starting Training...
+2025-11-06 18:55:57,023 - INFO - ❌ No existing checkpoint found. Starting training from Epoch 1.
+2025-11-06 19:41:25,393 - INFO - --- Epoch 1 Complete ---
+Average Training Loss: 11.9839
+Average Validation Loss: 11.0443
+2025-11-06 19:41:27,772 - INFO - Checkpoint saved to checkpoints_multimodal_g2t_shubham2/epoch_1_val_loss_11.0443.pt
+2025-11-06 19:41:29,545 - INFO - New best model saved to checkpoints_multimodal_g2t_shubham2/best_model.pt
+2025-11-06 20:27:37,023 - INFO - --- Epoch 2 Complete ---
+Average Training Loss: 11.7601
+Average Validation Loss: 11.0589
+2025-11-06 20:27:39,048 - INFO - Checkpoint saved to checkpoints_multimodal_g2t_shubham2/epoch_2_val_loss_11.0589.pt
